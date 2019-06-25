@@ -23,8 +23,9 @@ h1	{
 	font-size: 35px;
 	background-color: #333; /*off black*/
 	text-transform: uppercase;
-	margin-bottom: 2px;
-	letter-spacing: 3px;
+	margin: 5px;
+	border-radius: 	10px;
+	letter-spacing: 1px;
 	font-family: 'Cutive Mono', monospace;
 }
 
@@ -35,9 +36,9 @@ h2	{
 	letter-spacing: 1px;
 	margin-bottom: 100px;
 	
-	background-color: #d9d588;
+	background-color: #9999;
 	
-	margin:  1px;
+	margin:  5px;
 	border-radius: 	10px;
 }
 
@@ -45,6 +46,8 @@ h2	{
 
 .bio{
 	padding: 50px;
+	margin: 5px;
+	border-radius: 	10px;
 	font-size: 18px;
 	line-height: 1.75;
 	/*background-color: #333;*/
