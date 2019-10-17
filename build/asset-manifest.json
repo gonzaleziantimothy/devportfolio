@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/repository-name/static/css/main.319e7feb.chunk.css",
+    "main.js": "/repository-name/static/js/main.bb2f32ae.chunk.js",
+    "main.js.map": "/repository-name/static/js/main.bb2f32ae.chunk.js.map",
+    "runtime-main.js": "/repository-name/static/js/runtime-main.8e2c3210.js",
+    "runtime-main.js.map": "/repository-name/static/js/runtime-main.8e2c3210.js.map",
+    "static/js/2.cd53ae9e.chunk.js": "/repository-name/static/js/2.cd53ae9e.chunk.js",
+    "static/js/2.cd53ae9e.chunk.js.map": "/repository-name/static/js/2.cd53ae9e.chunk.js.map",
+    "index.html": "/repository-name/index.html",
+    "precache-manifest.5eb9555ffdba08001433b569d1fa7db9.js": "/repository-name/precache-manifest.5eb9555ffdba08001433b569d1fa7db9.js",
+    "service-worker.js": "/repository-name/service-worker.js",
+    "static/css/main.319e7feb.chunk.css.map": "/repository-name/static/css/main.319e7feb.chunk.css.map",
+    "static/media/App.css": "/repository-name/static/media/cardbg.5a41e0c6.png",
+    "static/media/bootstrap.png": "/repository-name/static/media/bootstrap.885f22bc.png",
+    "static/media/cp1-image1.png": "/repository-name/static/media/cp1-image1.6f9f935c.png",
+    "static/media/cp2-image3.png": "/repository-name/static/media/cp2-image3.5a949cf5.png",
+    "static/media/cp3-image1.png": "/repository-name/static/media/cp3-image1.204f3b01.png",
+    "static/media/css.png": "/repository-name/static/media/css.d9e0e14f.png",
+    "static/media/gradle.png": "/repository-name/static/media/gradle.7cb3e2f8.png",
+    "static/media/html5.png": "/repository-name/static/media/html5.29dc5043.png",
+    "static/media/intellij.png": "/repository-name/static/media/intellij.3ee8ae5f.png",
+    "static/media/java.png": "/repository-name/static/media/java.44d1a6f3.png",
+    "static/media/js.png": "/repository-name/static/media/js.efa3221c.png",
+    "static/media/logo.svg": "/repository-name/static/media/logo.25bf045c.svg",
+    "static/media/mongodb.png": "/repository-name/static/media/mongodb.7377108f.png",
+    "static/media/mysql.png": "/repository-name/static/media/mysql.e1ea7441.png",
+    "static/media/nodejs.png": "/repository-name/static/media/nodejs.a3ab2018.png",
+    "static/media/pcmc.png": "/repository-name/static/media/pcmc.d71d284f.png",
+    "static/media/react.png": "/repository-name/static/media/react.7078cdca.png",
+    "static/media/uplogo.png": "/repository-name/static/media/uplogo.25bff739.png"
+  }
+}
