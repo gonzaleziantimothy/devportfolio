@@ -1,0 +1,542 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.App {
+  width:100%;
+  position: relative;
+  background-image: url("./images/bg1.png");
+  background-position: fixed;
+  background-size: contain; 
+}
+
+.app-body{
+  width:100%;
+}
+
+/*class landing*/
+
+.landing {
+  width:100%;
+  height: 100vh;
+}
+
+.hi{
+  font-size: 34vh;
+  color:#fc1b70;
+  height: 34vh;
+  font-family: 'Roboto', monospace;
+}
+
+.period{
+  font-size: 20%;
+  color: #f8f8f2; 
+}
+
+h5 {
+  color: #a4e400;
+}
+
+h2{
+  font-size: 30vh;
+  color:#61d8f1;
+  word-spacing: 0.001em;
+  line-height: 0.5;
+  font-family: 'Roboto', monospace;
+}
+
+.tim{
+  color: #a4e400;
+  line-height: 1.0;
+}
+
+span{
+  color:#fc1b70;
+}
+/*end landing*/
+
+/*start of skills*/
+
+.skills-projects{
+  color:#fc1b70;
+  font-family: 'Roboto', monospace;
+  font-size: 800%;
+  margin:0;
+  text-align: right;
+  line-height: 0.7;
+  width: 100%;
+}
+
+.skills{
+  height:auto;
+  color:#ad7cff;
+  font-family: 'Roboto', monospace;
+  font-size: 600%;
+  margin:0;
+  text-align: left;
+  width: 100%;
+  line-height: 0.7;
+}
+
+.skills-img{
+  width: 70%;
+}
+
+.skills-container{
+  height: 100vh;
+}
+
+/*end of skills*/
+
+/*about*/
+.about{
+  
+  width: 100%;
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.about-text{
+  font-size: 350%;
+  color:#e8dc6d;
+}
+
+.brackets{
+  color: #f8f8f2; 
+}
+
+.pink{
+  font-size: 150%;
+}
+
+li{
+  font-size: 150%;
+  color: #f8f8f2;
+}
+
+.aboutme{
+  height: 70vh;
+}
+
+/*start of education*/
+
+.education{
+  font-size: 600%;
+  font-family: 'Roboto', monospace;
+  text-align: right;
+  color:#61d8f1;
+  line-height: 0.5;
+}
+
+.education-container{
+  height: 70vh;
+}
+
+.educ-img{
+  width:90%;
+  height: 50%;
+}
+
+h3{
+   font-family: 'Roboto', monospace;
+   line-height: 0.9;
+}
+
+.card{
+  color: #e8dc6d;
+  background-image: url("./images/cardbg.png");
+  background-position: fixed;
+  background-size: cover;
+  padding: 0 !important; 
+}
+
+
+/*start projects*/
+
+.projects-section .card-text{
+   color: #e8dc6d;
+}
+
+.card-title{
+  color: #f8f8f2;
+}
+
+.projects-section{
+  height: 100vh;
+}
+
+.projects-images{
+  width: 100%;
+}
+
+
+/*start of footer*/
+#container-footer{
+  width: 100%;
+  margin: 0 !important;
+  display: block;
+  max-width: 100% !important;
+}
+.footer {
+  width: 100%;
+  height:10vh;
+  background-color: #282923;
+}
+
+
+.footer-start{
+  text-align: right;
+  font-size: 150%;
+  margin-top: 1%;
+}
+
+.footer-end{
+  text-align: left;
+  font-size: 150%;
+  margin-top: 1%;
+}
+
+.footer-mid{
+  text-align: center;
+  font-size: 150%;
+  margin-top: 1%;
+}
+
+.label{
+  color:#a4e400;
+}
+
+.email{
+  color: #e8dc6d;
+}
+
+.links{
+  color: grey;
+}
+
+.links:hover{
+  color:#e8dc6d;
+}
+
+.social-links{
+  transform: rotate(-90deg);
+  width:45%;
+  position: fixed;
+  left: 75%;
+  bottom: 50%;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+
+
+
+/*media queries*/
+
+/*Mobile Style*/
+/*only screen (media type) --- (max-width)(media feature)*/
+/*only screen only for specific size (max-width)*/
+
+@media only screen and (max-width: 400px) {
+
+  .about-text{
+    font-size: 250%;
+  }
+
+  .pink{
+    font-size: 100%;
+  }
+
+  .skills-projects{
+    font-size: 300%;
+    line-height: 0.7;
+  }
+
+  .education{
+  font-size: 300%;
+  line-height: 0.4;
+  }
+
+  .footer{
+    height: 5vh;
+  }
+  .footer-start{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+
+  .footer-end{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+
+  .footer-mid{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+  .projects-section{
+    height: 200vh;
+  }
+  .skills{
+    font-size: 300%;
+  }
+
+  .education-container{
+    height: 250vh;
+  }
+
+  .social-links{
+    width:140%;
+    left: 28%;
+    bottom: 50%;
+  }
+
+
+}
+
+/*iphone X*/
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+ .about-text{
+    font-size: 250%;
+  }
+
+  .aboutme{
+    padding-left:3% !important; 
+    padding-right:15% !important; 
+  }
+
+  h2{
+    font-size: 20vh;
+  }
+
+  .pink{
+    font-size: 100%;
+  }
+
+  .skills-projects{
+    font-size: 300%;
+    line-height: 0.7;
+  }
+
+  .education{
+  font-size: 300%;
+  line-height: 0.4;
+  }
+
+  .footer{
+    height: 5vh;
+  }
+  .footer-start{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+
+  .footer-end{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+
+  .footer-mid{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+  .projects-section{
+    height: 200vh;
+  }
+  .skills{
+    font-size: 300%;
+  }
+
+  .education-container{
+    height: 250vh;
+  }
+
+  .social-links{
+    width:140%;
+    left: 28%;
+    bottom: 50%;
+  }
+
+
+
+}
+
+
+
+
+/*tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .about-text{
+    font-size: 250%;
+  }
+
+  .pink{
+    font-size: 100%;
+  }
+
+  .skills-projects{
+    font-size: 300%;
+    line-height: 0.7;
+  }
+
+  .education{
+  font-size: 300%;
+  line-height: 0.4;
+  }
+
+  .footer{
+    height: 5vh;
+  }
+  .footer-start{
+    font-size: 100%;
+    margin-top: 1%;
+  }
+
+  .footer-end{
+    font-size: 100%;
+    margin-top: 1%;
+  }
+
+  .footer-mid{
+    font-size: 100%;
+    margin-top: 1%;
+  }
+
+
+  .projects-section{
+    height: 90vh;
+  }
+  .skills{
+    font-size: 300%;
+  }
+
+  .education-container{
+    height: 80vh;
+  }
+
+  .education-container h3{
+    font-size: 20px;
+  }
+
+  .education-container .row{
+    padding: 0 !important;
+    padding-top: 20px !important;
+    height: 30vh;
+  }
+
+  .education-container .card-body{
+    padding: 0 !important;
+    padding-top: 20px !important;
+    padding-right: 20px !important;
+    height: 40vh;
+  }
+  .educ-img{
+    width:100%;
+    height: 20%;
+  }
+
+  .social-links{
+    width:140%;
+    left: 28%;
+    bottom: 50%;
+  }
+
+
+}
+
+/*iphone 8+*/
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+     
+
+ .about-text{
+    font-size: 250%;
+  }
+
+  .aboutme{
+    padding-left:3% !important; 
+    padding-right:15% !important; 
+  }
+
+  h2{
+    font-size: 20vh;
+  }
+
+  .pink{
+    font-size: 100%;
+  }
+
+  .skills-projects{
+    font-size: 300%;
+    line-height: 0.7;
+  }
+
+  .education{
+  font-size: 300%;
+  line-height: 0.4;
+  }
+
+  .footer{
+    height: 5vh;
+  }
+  .footer-start{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+
+  .footer-end{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+
+  .footer-mid{
+    font-size: 60%;
+    margin-top: 1%;
+  }
+  .projects-section{
+    height: 200vh;
+  }
+  .skills{
+    font-size: 300%;
+  }
+  .education-container .jumbotron{
+    height:200vh;
+    padding-left: 50px !important;
+    padding-top: 0 !important;
+  }
+  .education-container{
+    height: 250vh;
+  }
+   .educ-img{
+    width:100%;
+    height:100%;
+  }
+
+  .social-links{
+    width:140%;
+    left: 28%;
+    bottom: 50%;
+  }
+
+
+}
+
+
